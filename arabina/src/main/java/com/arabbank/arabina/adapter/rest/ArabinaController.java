@@ -9,6 +9,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("simple-form")
+@CrossOrigin(origins = "*")
 public class ArabinaController {
     private final ArabinaRepoImplementation repo;
 
